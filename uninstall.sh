@@ -3,7 +3,7 @@
 # Uninstalls pached bash binaries from https://github.com/MacMiniVault/BashUpdateSnowLeopard/releases
 
 echo "You will be asked for your system password to uninstall patch"
-if [[  $(sw_vers -productVersion | grep -E '10.6.8' ]]
+if [[  $(sw_vers -productVersion | grep -E '10.6.8') ]]
 then
 if [[ -f /bin/bash.old  ]]
 then
